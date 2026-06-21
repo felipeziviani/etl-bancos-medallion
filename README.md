@@ -12,7 +12,8 @@ para consumo de negócio.
 
 ## Estrutura do projeto
 
-etl_fipe/
+```
+etl_bancos/
 ├── dags/              # DAGs do Airflow
 ├── etl/               # Lógica do ETL (bronze, silver, gold)
 ├── data/              # Dados gerados pelo pipeline
@@ -20,6 +21,7 @@ etl_fipe/
 ├── requirements.txt
 ├── docker-compose.yml
 └── Dockerfile
+```
 
 ## Como rodar localmente
 
