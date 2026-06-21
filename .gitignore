@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Dados gerados pelo pipeline (não versionamos os dados, só o código) ---
+data/bronze/*.parquet
+data/silver/*.parquet
+data/gold/*.parquet
+
+# --- Airflow ---
+logs/
+airflow.cfg
+airflow.db
+airflow-webserver.pid
+plugins/
+standalone_admin_password.txt
+
+# --- Docker ---
+.env
+
+# --- Editor / SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
